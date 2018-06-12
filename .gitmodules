@@ -11,3 +11,6 @@
 	path = Vim/.vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
 
+[submodule "Vim/.vim/bundle/vim-polyglot"]
+	path = Vim/.vim/bundle/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot

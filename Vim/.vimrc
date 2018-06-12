@@ -1,5 +1,7 @@
 set encoding=utf-8
 set number
+syntax on
+
 execute pathogen#infect()
 
 autocmd StdinReadPre * let s:std_in=1

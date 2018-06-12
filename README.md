@@ -12,6 +12,8 @@ Plugins:
 * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 * [tcomment_vim](https://github.com/tomtom/tcomment_vim)
 * [nerdtree](https://github.com/scrooloose/nerdtree)
+* [vim-polyglot](https://github.com/sheerun/vim-polyglot)
 
 ## Git
 `~/.gitconfig`
+
