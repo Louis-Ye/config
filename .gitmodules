@@ -9,4 +9,5 @@
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "Vim/.vim/bundle/ctrlp.vim"]
 	path = Vim/.vim/bundle/ctrlp.vim
-	url = git@github.com:kien/ctrlp.vim.git
+	url = https://github.com/kien/ctrlp.vim.git
+
