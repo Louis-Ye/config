@@ -10,7 +10,12 @@
 [submodule "Vim/.vim/bundle/ctrlp.vim"]
 	path = Vim/.vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
-
 [submodule "Vim/.vim/bundle/vim-polyglot"]
 	path = Vim/.vim/bundle/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
+[submodule "Vim/.vim/bundle/YouCompleteMe"]
+	path = Vim/.vim/bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "Vim/.vim/bundle/vim-sleuth"]
+	path = Vim/.vim/bundle/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth.git
