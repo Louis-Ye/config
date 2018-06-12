@@ -1,5 +1,5 @@
 # Config
-A place for storing configurations of various software
+Louis's personal preferences for various software configurations
 
 ## Vim
 
