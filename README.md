@@ -14,7 +14,7 @@ Plugins:
 * [nerdtree](https://github.com/scrooloose/nerdtree)
 * [vim-polyglot](https://github.com/sheerun/vim-polyglot)
 * [Setup SilverSearcher in Vim](https://robots.thoughtbot.com/faster-grepping-in-vim) (prerequisite: [SilverSearcher](https://github.com/ggreer/the_silver_searcher))(enable without git submodule)
-* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) (prerequisite: Please refer to installation steps in [YouCompleteMe](https://github.com/Valloric/YouCompleteMe))
+* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) (prerequisite: please refer to installation steps in [YouCompleteMe](https://github.com/Valloric/YouCompleteMe))
 * [vim-sleuth](https://github.com/tpope/vim-sleuth)
 
 ## Git
