@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/louis/prj/dynamorio/clients/drcachesim'
-let g:netrw_dirhist_2='/home/louis/prj/dynamorio/clients/drcachesim/tracer'
-let g:netrw_dirhist_3='/home/louis/Downloads/prj/dynamorio/build'
-let g:netrw_dirhist_4='/home/louis/Downloads/prj/dynamorio'
