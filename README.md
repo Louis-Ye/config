@@ -2,7 +2,7 @@
 Louis's personal preferences for various software configurations
 
 ## Vim
-prerequisite: `cscope`
+prerequisite for one of the plugins: `cscope`
 
 ## Git
 
