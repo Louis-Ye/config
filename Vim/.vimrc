@@ -37,7 +37,7 @@ augroup END
 " Close quickfix window after selecting a line
 autocmd FileType qf nnoremap <buffer> <CR> <CR>:cclose<CR>
 
-" highlight word under cursor when idle
+" z/ to enable highlight word under cursor when idle
 nnoremap z/ :if AutoHighlightToggle()<Bar>set hls<Bar>endif<CR>
 function! AutoHighlightToggle()
   let @/ = ''
@@ -65,4 +65,9 @@ set clipboard=unnamedplus
 if has('win32')
   set clipboard=unnamed
 endif
+
+colorscheme wombat
+
+" map ze to control + w to move between windows
+nnoremap zw <C-w>
 
