@@ -21,3 +21,8 @@ Plugins:
 ## Git
 `~/.gitconfig`
 
+## Sublime 3 
+Plugins (just the name of the plugins, not the repos or code, install them through Sublime Package Control)
+* cmake
+* GitGutter
+

@@ -74,3 +74,7 @@ colorscheme wombat
 " map ze to control + w to move between windows
 nnoremap zw <C-w>
 
+" s and cc delete without yanking clipboard
+nnoremap s "_s
+nnoremap cc "_cc
+
