@@ -24,4 +24,15 @@ if executable('ag')
 endif
 
 nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+nnoremap :gp :grep!
+
+" open quickfix window after :grep :make :lvimgrep
+augroup myvimrc
+    autocmd!
+    autocmd QuickFixCmdPost [^l]* cwindow
+    autocmd QuickFixCmdPost l*    lwindow
+augroup END
+
+" Close quickfix window after selecting a line
+autocmd FileType qf nnoremap <buffer> <CR> <CR>:cclose<CR>
 
