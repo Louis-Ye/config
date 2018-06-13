@@ -10,6 +10,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map :ndt :NERDTree<CR>
 map :nt :NERDTreeToggle<CR>
 map :ne :NERDTreeFocus<CR>
+let NERDTreeShowHidden=1
 
 " The Silver Searcher
 if executable('ag')
@@ -35,4 +36,33 @@ augroup END
 
 " Close quickfix window after selecting a line
 autocmd FileType qf nnoremap <buffer> <CR> <CR>:cclose<CR>
+
+" highlight word under cursor when idle
+nnoremap z/ :if AutoHighlightToggle()<Bar>set hls<Bar>endif<CR>
+function! AutoHighlightToggle()
+  let @/ = ''
+  if exists('#auto_highlight')
+    au! auto_highlight
+    augroup! auto_highlight
+    setl updatetime=4000
+    echo 'Highlight current word: off'
+    return 0
+  else
+    augroup auto_highlight
+      au!
+      au CursorHold * let @/ = '\V\<'.escape(expand('<cword>'), '\').'\>'
+    augroup end
+    setl updatetime=500
+    echo 'Highlight current word: ON'
+    return 1
+  endif
+endfunction
+
+set hlsearch
+
+" copy to clipboard (might not work with remote-login terminal)
+set clipboard=unnamedplus
+if has('win32')
+  set clipboard=unnamed
+endif
 

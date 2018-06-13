@@ -16,6 +16,7 @@ Plugins:
 * [Setup SilverSearcher in Vim](https://robots.thoughtbot.com/faster-grepping-in-vim) (prerequisite: [SilverSearcher](https://github.com/ggreer/the_silver_searcher)) (enable without git submodule)
 * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) (prerequisite: please refer to installation steps in [YouCompleteMe](https://github.com/Valloric/YouCompleteMe))
 * [vim-sleuth](https://github.com/tpope/vim-sleuth)
+* [vim=colorschemes](https://github.com/flazz/vim-colorschemes.git)
 
 ## Git
 `~/.gitconfig`
