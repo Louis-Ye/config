@@ -7,6 +7,7 @@ Run `git submodule update --init --recursive` to enable plugins
 Link .vimrc file:
 ```
 ln -s `pwd`/Vim/.vimrc ~/.vimrc
+ln -s `pwd`/Vim/.vim ~/.vim
 ```
 
 Plugin manager: [pathogen](https://github.com/tpope/vim-pathogen)
