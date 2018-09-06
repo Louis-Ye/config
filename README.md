@@ -4,6 +4,11 @@ Louis's personal preferences for various software configurations
 ## Vim
 Run `git submodule update --init --recursive` to enable plugins
 
+Link .vimrc file:
+```
+ln -s `pwd`/Vim/.vimrc ~/.vimrc
+```
+
 Plugin manager: [pathogen](https://github.com/tpope/vim-pathogen)
 
 Plugins:
@@ -19,7 +24,10 @@ Plugins:
 * [vim=colorschemes](https://github.com/flazz/vim-colorschemes.git)
 
 ## Git
-`~/.gitconfig`
+Link .gitconfig file:
+```
+ln -s `pwd`/Git/.gitconfig ~/.gitconfig
+```
 
 ## Sublime 3 
 Plugins (just the name of the plugins, not the repos or code, install them through Sublime Package Control)
