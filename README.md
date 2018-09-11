@@ -28,7 +28,8 @@ ln -s `pwd`/Vim/.vim ~/.vim
 `git submodule update --init --recursive` to enable plugins
 
 Following are the convenient commands for installing pre-requisites. If it doesn't work, please refer to the original installation steps in the provided links above.
-*Linux*
+
+**Linux**
 ```
 # Install cscope
 sudo apt install cscope
@@ -38,7 +39,7 @@ sudo apt install silversearcher-ag
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 ```
-*MacOS*
+**MacOS**
 ```
 # Install cscope
 brew install cscope
