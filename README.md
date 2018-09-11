@@ -2,13 +2,14 @@
 Louis's personal preferences for various software configurations
 
 ## Vim
-Run `git submodule update --init --recursive` to enable plugins
-
 Link .vimrc file:
 ```
+# Assume you are under the root directory of this repo
 ln -s `pwd`/Vim/.vimrc ~/.vimrc
 ln -s `pwd`/Vim/.vim ~/.vim
 ```
+
+Run `git submodule update --init --recursive` to enable plugins
 
 Plugin manager: [pathogen](https://github.com/tpope/vim-pathogen)
 
@@ -27,6 +28,7 @@ Plugins:
 ## Git
 Link .gitconfig file:
 ```
+# Assume you are under the root directory of this repo
 ln -s `pwd`/Git/.gitconfig ~/.gitconfig
 ```
 
