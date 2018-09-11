@@ -2,15 +2,6 @@
 Louis's personal preferences for various software configurations
 
 ## Vim
-Link .vimrc file:
-```
-# Assume you are under the root directory of this repo
-ln -s `pwd`/Vim/.vimrc ~/.vimrc
-ln -s `pwd`/Vim/.vim ~/.vim
-```
-
-Run `git submodule update --init --recursive` to enable plugins
-
 Plugin manager: [pathogen](https://github.com/tpope/vim-pathogen)
 
 Plugins:
@@ -24,6 +15,39 @@ Plugins:
 * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) (prerequisite: please refer to installation steps in [YouCompleteMe](https://github.com/Valloric/YouCompleteMe))
 * [vim-sleuth](https://github.com/tpope/vim-sleuth)
 * [vim=colorschemes](https://github.com/flazz/vim-colorschemes.git)
+
+### How to enable and install
+
+Link .vimrc file:
+```
+# Assume you are under the root directory of this repo
+ln -s `pwd`/Vim/.vimrc ~/.vimrc
+ln -s `pwd`/Vim/.vim ~/.vim
+```
+
+`git submodule update --init --recursive` to enable plugins
+
+Following are the convenient commands for installing pre-requisites. If it doesn't work, please refer to the original installation steps in the provided links above.
+*Linux*
+```
+# Install cscope
+sudo apt install cscope
+# Install silver searcher
+sudo apt install silversearcher-ag
+# YouCompleteMe installation steps
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --clang-completer
+```
+*MacOS*
+```
+# Install cscope
+brew install cscope
+# Install silver searcher
+brew install the_silver_searcher
+# YouCompleteMe installation steps
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --clang-completer
+```
 
 ## Git
 Link .gitconfig file:
