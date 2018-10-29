@@ -62,4 +62,5 @@ Plugins (just the name of the plugins, not the repos or code, install them throu
 * cmake
 * GitGutter
 * trimmer
-
+* Wrap Plus
+* AutoWrap
